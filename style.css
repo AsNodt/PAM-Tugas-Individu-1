@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body   {
+    min-width: 280px;
+    min-height: 653px;
+    width: 100%;
+    font-family: 'Calibri';
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 20vh;
+    overflow: hidden;
+    text-align: center;
+    width: 50%;
+  }
+  
+th, td {
+    padding: 1em;
+    background: rgb(138, 105, 82);
+    border-bottom: 2px solid white; 
+}
+
+th {
+    color: azure;
+}
+
+tbody, td {
+    background: rgb(233, 201, 179);
+}
